@@ -1,9 +1,10 @@
 .footer {
   display: grid;
-  grid-template-rows: 1fr 60px;
+  grid-template-rows: 1fr 20px;
   background-color: #0f1f2e;
   height: 250px;
   padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .footer-grid {
@@ -61,4 +62,5 @@
   font-size: 12px;
   text-align: center;
   margin-top: 0;
+
 }
