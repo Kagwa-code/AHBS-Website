@@ -1,12 +1,19 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .contact-us {
   background-color: #1a3a52;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 35px;
+  font-size: 14px;
   height: 250px;
   text-align: center;
   padding-top: 50px;
   line-height: 16px;
 }
+
+
 
 .contact-us-statement {
   font-size: 14px;
@@ -15,20 +22,21 @@
   width: 550px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
-.contact-us-button {
+.btn {
   color: #1a3a52;
   font-weight: 600;
   background-color: #c9a961;
   border: none;
   border-radius: 3px;
-  padding: 15px 25px 15px 25px;
+  padding: 13px 25px 13px 25px;
   margin-right: 20px;
   margin-top: 20px;
 }
 
-.contact-us-button:hover {
+.btn:hover {
   background-color: #d4b574;
   cursor: pointer;
 }
