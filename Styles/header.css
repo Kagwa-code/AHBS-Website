@@ -23,6 +23,7 @@ a {
   left: 0;
   right: 0;
   height: 100px;
+  z-index: 1000;
 }
 
 .ahbs-logo {
@@ -46,3 +47,4 @@ a {
   padding: 10px 16px 10px 16px;
 
 }
+
