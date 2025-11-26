@@ -17,6 +17,12 @@ a {
   justify-content: space-between;
   padding-right: 100px;
   padding-left: 100px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
 }
 
 .ahbs-logo {
@@ -38,4 +44,5 @@ a {
   cursor: pointer;
   margin-top: 0;
   padding: 10px 16px 10px 16px;
+
 }
