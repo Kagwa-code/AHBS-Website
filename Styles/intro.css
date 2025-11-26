@@ -6,6 +6,7 @@
   text-align: center;
   padding-top: 50px;
   line-height: 16px;
+  padding-top: 100px;
 }
 
 .intro-statement {
@@ -51,4 +52,5 @@
   transition: transform 0.3s ease-out;
 
 }
+
 
