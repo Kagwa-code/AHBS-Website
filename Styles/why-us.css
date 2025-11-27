@@ -26,12 +26,32 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 15px;
   row-gap: 25px;
-  margin-left: 205px;
-  margin-right: 205px;
+  max-width: 1000px; 
+  margin: 0 auto; 
+  padding-left: 20px; 
+  padding-right: 20px; 
+}
+
+@media (max-width: 1100px) {
+  .why-us-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .why-us-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .why-us-grid {
+    grid-template-columns: 1fr; 
+  }
 }
 
 .individual-grid {
-  width: 150px;
+  width: auto; 
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
   background-color: white;
   border-radius: 3px;
@@ -57,4 +77,5 @@
   font-size: 12px;
   line-height: 22px;
 }
+
 
