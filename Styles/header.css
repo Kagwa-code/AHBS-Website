@@ -15,8 +15,7 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding: 0 100px; 
   position: fixed;
   background-color: white;
   top: 0;
@@ -45,6 +44,45 @@ a {
   cursor: pointer;
   margin-top: 0;
   padding: 10px 16px 10px 16px;
-
 }
+
+@media (max-width: 850px) {
+  .header {
+    padding: 0 20px;
+    height: 80px; 
+  }
+  
+  .ahbs-logo {
+    height: 45px; 
+  }
+
+  .right-section {
+    width: auto;
+    gap: 10px;
+    font-size: 12px;
+  }
+
+  .right-section a:nth-child(2) { 
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .right-section {
+        flex-wrap: wrap; 
+        justify-content: center;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .right-section a {
+        font-size: 11px;
+    }
+}
+
 
